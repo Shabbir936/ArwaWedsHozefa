@@ -81,7 +81,7 @@ input[type=submit]{
     height: 2.5rem;
     background-color: rgba(243, 134, 101, 0.25);
     text-align: center;
-    border: 1px solid   rgba(243, 134, 101, 0);
+    border: 1px solid   rgba(243, 134, 101, 0.1);
     border-radius: 0.5rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
