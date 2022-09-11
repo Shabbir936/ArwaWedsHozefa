@@ -21,16 +21,23 @@ body{
     align-items: center;
 }
 
-
-.login-info{
-    width:100%;
-    height: min-content;
-    grid-column-start: 1 ;
+.cutout{
     background-image: url("backdrop2.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: 5px 5px 5px 5px rgba(243, 157, 131,0.5),0px 5px 5px 5px rgba(243, 157, 131,0.5);
+
+}
+
+.login-info{
+    width:100%;
+    height: min-content;
+    /* background-image: url("backdrop2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* box-shadow: 5px 5px 5px 5px rgba(243, 157, 131,0.5),0px 5px 5px 5px rgba(243, 157, 131,0.5); */
 }
 .login-info > p{
     text-align: center;
