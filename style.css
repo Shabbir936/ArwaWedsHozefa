@@ -11,6 +11,9 @@ body{
     background-image: url("backdrop.jpg");
     background-repeat: no-repeat;
     height: 100%;
+    margin-bottom: 0;
+    padding-top: 1%;
+    padding-bottom: 2%;
     background-position: center;
     background-size: cover;
     font-family: 'Montserrat';
