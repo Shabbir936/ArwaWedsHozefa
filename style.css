@@ -14,19 +14,12 @@ body{
     background-position: center;
     background-size: cover;
     font-family: 'Montserrat';
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .content{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.header{
-    text-align: center;
-    font-family: 'basskiaregular','san-serif';
-    font-size: 2rem;
-    font-weight: 100;
-    line-height: 0;
 }
 
 .cutout{
