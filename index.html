@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -28,7 +28,7 @@
                 color: #383834;
               "
               >Arwa</span
-            ><br /><br /><span style="font-size: 0.95rem ; color: #2c6372;"
+            ><br /><br><br /><span style="font-size: 0.95rem ; color: #2c6372;"
               >(D/O Mrs. Radiya & M. Murtaza Tarawala)</span
             >
             <br /><br /><span style="color: #2c6372;">And</span><br /><br /><br /><span
@@ -40,27 +40,37 @@
                 color: #383834;
               "
               >Dr.Huzaifa</span
-            ><br /><br /><span style="font-size: 0.95rem ; color: #2c6372;"
+            ><br /><br><br /><span style="font-size: 0.95rem ; color: #2c6372;"
               >(S/O Mrs. Sakina & Mr. Mohammed Hussain Hotelwala)</span
             >
             <br /><br />To view more details, Please enter your password
             mentioned on the card
           </p>
-          <form name="Passwordform" id="Password-form" onsubmit="validation()">
+          <form name="Passwordform" id="Password-form"">
             <input
               type="password"
               name="password"
               id="password"
               placeholder="Enter Password Here"
+              pattern="[0-9]+"
             />
-            <input type="submit" value="Submit" />
+            <button type="button" class="button"  onclick="validation()">Submit</button>
           </form>
         </div>
       </div>
     </div>
     <script>
       let validation = () => {
-        alert("More Details coming soon....");
+        let pword = document.getElementById("password");
+        if(pword.value === "5253"){
+          window.location.href="huzefa.html";
+        }
+        else if(pword.value === "786"){
+          window.location.href="arwa.html";
+        }
+        else if(pword.value === "" | pword.value !== ""){
+          alert("Please Enter correct password")
+        }
       };
     </script>
   </body>
